@@ -1,7 +1,7 @@
 {
   "name": "the-ai-mercado-pago",
   "version": "1.0.0",
-  "description": "Integración inteligente de IA con el ecosistema de pagos de Mercado Pago",
+  "description": "An AI-integrated marketplace solution using Mercado Pago for seamless automated payments.",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
@@ -10,22 +10,28 @@
   },
   "keywords": [
     "mercado-pago",
-    "ai",
-    "chatbot",
+    "artificial-intelligence",
+    "fintech",
     "payments",
-    "fintech"
+    "automation",
+    "node-js",
+    "sdk-v2"
   ],
   "author": "Lazaro549",
   "license": "MIT",
   "dependencies": {
-    "mercadopago": "^2.0.15",
+    "mercadopago": "^2.0.11",
     "openai": "^4.0.0",
     "express": "^4.18.2",
     "dotenv": "^16.3.1",
     "cors": "^2.8.5",
+    "helmet": "^7.1.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
