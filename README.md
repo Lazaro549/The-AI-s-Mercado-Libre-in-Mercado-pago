@@ -25,7 +25,7 @@ This repository contains the implementation of a conversational assistant (based
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Lazaro549/The-AI-s-Mercado-Libre-in-Mercado-pago.git](https://github.com/Lazaro549/The-AI-s-Mercado-Libre-in-Mercado-pago.git)```
+   git clone [https://github.com/Lazaro549/The-AI-s-Mercado-Libre-in-Mercado-pago.git](https://github.com/Lazaro549/The-AI-s-Mercado-Libre-in-Mercado-pago.git)
 2. **Instala las dependencias:**
    # Si usas npm
    ```npm install```
@@ -34,5 +34,5 @@ This repository contains the implementation of a conversational assistant (based
 
 3. **Configura tus credenciales:**
    ```MP_ACCESS_TOKEN=tu_access_token_aqui
-      ML_APP_ID=tu_app_id```
+      ML_APP_ID=tu_app_id
     
