@@ -1,3 +1,24 @@
+sequenceDiagram
+    participant User as 👤 Usuario
+    participant AI as 🤖 AI Agent (Host)
+    participant MCP as 🧠 MCP Server
+    participant Meli as 🛍️ Mercado Libre API
+    participant MP as 💳 Mercado Pago API
+
+    User->>AI: "Busca una laptop que pueda pagar"
+    AI->>MCP: Query: {search: 'laptop', context: 'balance'}
+    rect rgb(240, 240, 240)
+        par Check APIs
+            MCP->>MP: Get User Balance/Credit
+            MCP->>Meli: Search Products
+        end
+    end
+    MCP-->>AI: Resultados filtrados por presupuesto
+    AI->>User: "Encontré esta opción que se ajusta a tu saldo"
+    User->>AI: "Comprar ahora"
+    AI->>MCP: Init Payment Preference
+    MCP->>MP: Create Checkout Link
+    MP-->>User: Confirmación Biométrica / Pago
 # System Architecture: AI-Powered Mercado Libre & Mercado Pago Integration
 
 This document outlines the architectural design and data flow of the **MCP Server** that integrates Mercado Libre's marketplace with the Mercado Pago financial ecosystem.
