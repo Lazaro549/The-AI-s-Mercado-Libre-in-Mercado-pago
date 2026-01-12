@@ -64,3 +64,8 @@ The project follows a modular and scalable design:
 4. **Output**
    - Insights, recommendations, or automated responses.
 
+## 📂 Project Structure (Recommended)
+
+/docs
+/src
+/tests
