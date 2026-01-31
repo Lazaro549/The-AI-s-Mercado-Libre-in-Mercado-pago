@@ -63,3 +63,9 @@ The project follows a modular and scalable design:
 
 4. **Output**
    - Insights, recommendations, or automated responses.
+## ❤️ Support this project
+
+If you find this project useful, consider supporting it via GitHub Sponsors.  
+Your support helps maintain and improve the project.
+
+👉 [Become a Sponsor](https://github.com/sponsors/Lazaro549)
